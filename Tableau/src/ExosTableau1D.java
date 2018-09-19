@@ -44,6 +44,15 @@ public class ExosTableau1D
 		{
 			System.out.println( "indice " + i +" : " +cours[i]);
 		}
+		
+		// Exercice 5 : Recherche d'un élément du Tableau, exemple php.
+		System.out.println("-> Exercice 5 :");
+		for (int i =0; i<cours.length; i++) {
+			if (cours[i].equals ("PHP")) {
+				System.out.println( "PHP se trouve à l'indice " + i);
+			}
+			
+		}	
 
 
 	}

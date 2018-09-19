@@ -15,6 +15,7 @@ public class LectureClavier
       
       System.out.println("Vous avez saisi : " + chaine);
       
+      
       System.out.println("Fin");
       
 	}
